@@ -51,6 +51,7 @@ body{
     background-color: rgba(0,0,0,0.7);
     height: 100%;
     display: flex;
+    background-size: cover;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -108,7 +109,7 @@ body{
 .cards:hover{
     transform: translateY(-10px);
 }
-@media( max-width: 768px){
+@media( max-width: 250px){
     .nav-links{
         flex-direction: column;
         position: absolute;
